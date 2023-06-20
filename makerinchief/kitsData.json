@@ -3,7 +3,7 @@
         "category": "mechabot",
         "name": "Tank Bot",
         "link": "tank-bot",
-        "repos":,
+        "repos": [],
         "github": "https://github.com/intern-jck/Tank-Bot",
         "youtube": "https://www.youtube.com/watch?v=hO762uOHBdM",
         "short": "Four wheeled drive bot",
@@ -21,9 +21,9 @@
         ]
     },
     {
+        "category": "mechabot",
         "name": "Controller Bot",
         "link": "controller-bot",
-        "category": "bot",
         "github": "#",
         "youtube": "#",
         "short": "Two joystick controller",
