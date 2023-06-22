@@ -10,7 +10,6 @@
         "info": [
             "The Tank Bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels."
         ],
-        "tech": ["arduino", "nrf24l01", "3d-printing", "laser-cutting", "l298n"],
         "photos": [
             "https://iili.io/iAAp5B.jpg",
             "https://iili.io/iAAmJV.jpg",
@@ -18,6 +17,12 @@
             "https://iili.io/iAADUQ.jpg",
             "https://iili.io/iAALib.jpg",
             "https://iili.io/iAAt0x.jpg"
+        ],
+        "tech": ["arduino", "nrf24l01", "3d-printing", "laser-cutting", "l298n"],
+        "tech": [
+            {
+                "key": ""
+            },
         ]
     },
     {
