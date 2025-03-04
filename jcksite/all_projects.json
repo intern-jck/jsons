@@ -9,7 +9,7 @@
         "end_year": ""
       },
       "short": "Attempt at adding a Raspberry Pi to my Ford Ranger",
-      "info": "I stumbled across an open source package called Crankshaft which can link an Android and Raspberry Pi together to allow you setup your own navigation system.  I 3D printer a housing and replaced the radio console (which was dead at this point) in hopes of making my own.  Wiring was a pain and I messed up a few details like screen orientation, but learned a lot!  While it was cool while I had it, I ended up taking out due to not being able to createa safe shutdown for the Pi and the fact a slight bump in the road would disconnet the power harness, resetting the whole thing.  Oh well.  Still learnt a lot!",
+      "info": "Crankshaft is an open source package which can link an Android and Raspberry Pi via bluetooth to allow you mirror your phone to the Raspberry Pi.  With this, you can create your own navigation system.  I 3D printed a housing and replaced the radio console, which was dead at this point, in hopes of making my own.  Wiring was a pain and I messed up a few details like screen orientation. While it was cool while I had it, I ended up taking out due to not being able to create a safe shutdown for the Pi and the fact a slight bump in the road would disconnet the power harness, resetting the whole thing.",
       "tech": [
         [
           "Raspberry Pi",
@@ -17,11 +17,11 @@
         ],
         [
           "Crankshaft",
-          "#"
+          "https://github.com/opencardev/crankshaft"
         ],
         [
           "Fusion 360",
-          "#"
+          "https://www.autodesk.com/products/fusion-360"
         ]
       ],
       "photos": [
@@ -51,15 +51,15 @@
         "end_year": "2021"
       },
       "short": "Retro Pi Arcade Cabinet",
-      "info": "We this arcade cab collecting dust and taking up space at Splatspace, the local makerspace club I'm apart of.  The orginal emulator software was outdated and depreciated so I decided to give the cabinet some upgrades.  I replaced the original controls with 2 players to give more room to breath and setup Retro Pi to run on a Linux PC running Ubunutu.  Still have to install better speakers and fix some issues with booting into Retro Pie.",
+      "info": "We this arcade cab collecting dust and taking up space at Splat Space, the local makerspace club I'm apart of.  The orginal emulator software was outdated and depreciated so I decided to give the cabinet some upgrades.  I replaced the original controls with 2 players to give more room to breath and setup Retro Pi to run on a Linux PC running Ubunutu.  Still have to install better speakers and fix some issues with booting into Retro Pie.",
       "tech": [
         [
           "Linux",
-          "#"
+          "https://www.linux.org/"
         ],
         [
           "Retro Pi",
-          "#"
+          "https://retropie.org.uk/"
         ]
       ],
       "photos": [
@@ -93,11 +93,11 @@
       "tech": [
         [
           "Red Bear",
-          "#"
+          "https://reverb.com/item/2528188-rare-1990s-redbear-mk-60-60-watt-hand-wired-russian-tube-amplifier-new-tubes-red-bear-mk60"
         ],
         [
           "Laser Cutting",
-          "#"
+          "https://en.wikipedia.org/wiki/Laser_cutting"
         ]
       ],
       "photos": [
@@ -124,11 +124,11 @@
       "tech": [
         [
           "Celestion",
-          "#"
+          "https://celestion.com/"
         ],
         [
           "Orange",
-          "#"
+          "https://orangeamps.com/"
         ]
       ],
       "photos": [
@@ -189,11 +189,11 @@
       "tech": [
         [
           "Guitar",
-          "#"
+          "https://en.wikipedia.org/wiki/Electric_guitar"
         ],
         [
           "Humbuckers",
-          "#"
+          "https://en.wikipedia.org/wiki/Humbucker"
         ]
       ],
       "photos": [
@@ -294,10 +294,6 @@
                 "https://www.arduino.cc/"
             ],
             [
-                "Raspberry Pi",
-                "https://www.raspberrypi.org/"
-            ],
-            [
                 "Fusion 360",
                 "https://www.autodesk.com/products/fusion-360/overview"
             ]
@@ -343,12 +339,12 @@
         "info": "Working with Lane Shi Otayonii, I designed and built a prototype to work out the details of a new piece.  The wood frame would be mounted on the ceiling and open up to reveal a mounted TV playing video clips.  A Raspberry Pi was used to run a Python script to play the videos used in the piece.  An Arduino Nano was used to monitor the start/stop button and control the DC motors to open/close the frame.  Hall effect sensors were used for home and end-stop positions.  Custom gears, motor and sensor mounts were 3D printed and designed in Fusion 360 along with the CAD for the frame.",
         "tech": [
             [
-                "Arduino",
-                "https://www.arduino.cc/"
-            ],
-            [
                 "Raspberry Pi",
                 "https://www.raspberrypi.org/"
+            ],
+            [
+                "Arduino",
+                "https://www.arduino.cc/"
             ],
             [
                 "Python",
@@ -440,12 +436,12 @@
         "info": "The Vial Dispenser was designed and built as a prototype for a new version of the Siren, a game I helped build for the Museum of Sex NYC.  The game involves a metal crank wheel cleverly placed for players to spin.  If the players can keep the wheel spinning for 45 seconds, they win a vial of her essence which is dispensed by the game.  A Raspberry Pi runs a sketch written in Python to control audio playback, game state changes, and serial communication with an Arduino Nano connected via USB.  The Nano runs a script written to receive and send data to the Pi as well as control the motors, sensor input and various lighting elements.  CAD models of the dispenser and parts were designed using Fusion 360 which allowed for parts to be imported directly from McMaster-Carr.  When designs were finalized, parts were 3D printed, ordered from McMaster- Carr or built at my workshop.  Once assembled, testing took place over the course of many days to ensure all mechanism were flawless before both dispensers were shipped to a fabrication shop who would incorporate my design into the final build.",
         "tech": [
             [
-                "Arduino",
-                "https://www.arduino.cc/"
-            ],
-            [
                 "Raspberry Pi",
                 "https://www.raspberrypi.org/"
+            ],
+            [
+                "Arduino",
+                "https://www.arduino.cc/"
             ],
             [
                 "Python",
@@ -495,12 +491,12 @@
         "info": "Lucky Lips uses a GSR sensor to measure the strength of two players' kiss.  The players grab ahold of a metal hand rail mounted on opposite sides of the game and when they kiss or make skin-to-skin contact in another way, the GSR sensor measures the conductance of the two players.  If the players can maintain contact throughout the game, they win a random prize from the wheel mounted in the center.  While most prizes are tongue in cheek suggestions, grand prizes such as free hotel rooms or drink tickets were offered.  An Arduino Uno was used to read sensor data and send it to a Raspberry Pi.  The Pi ran a Processing IDE sketch to control game state changes, color patterns for the multiple sections of LED strips, and handle sensor input from the Arduino Uno using the Firmata protocol.  A Python sketch controlled all audio playback, printing of prize tickets, and emailing staff to alert them when the grand prizes were won. The two sketches communicated locally via the Open Sound Protocol.",
         "tech": [
             [
-                "Arduino",
-                "https://www.arduino.cc/"
-            ],
-            [
                 "Raspberry Pi",
                 "https://www.raspberrypi.org/"
+            ],
+            [
+                "Arduino",
+                "https://www.arduino.cc/"
             ],
             [
                 "Python",
@@ -551,12 +547,12 @@
         "info": "The Glory Stall is a hilarious take on the Wack-A-Mole game featured in many carnivals and arcades across the country.  Up to 4 players can compete to see who can pull the most as phallic shaped objects are pushed randomly through a set of 5 holes in each stall.  The player who can 'yank the most planks' wins their choice of a stuffed pepper, eggplant or banana.  Each stall uses a combination of an Arduino Nano and Raspberry Pi to control the various sensors, hardware, and audio playback in each stall.  Each of the 4 Raspberry Pis connect to a single Raspberry Pi using ethernet cables and a desktop switch.  This single Pi awaits user input from the staff to start and stop the game.  The Pis communicate using Open Sound Control.  On each Pi, a Processing IDE sketch is used to control each stall's Pi and the main Pi controlling the game state changes.  The Processing sketch handles audio playback, reading of incoming state changes, scoreboard updating and communication with the Arduino Nano via the Firmata protocol.  The Nano is used to read sensor data to record pulls and control of the relay module to activate pistons and the winner siren light.",
         "tech": [
             [
-                "Arduino",
-                "https://www.arduino.cc/"
-            ],
-            [
                 "Raspberry Pi",
                 "https://www.raspberrypi.org/"
+            ],
+            [
+                "Arduino",
+                "https://www.arduino.cc/"
             ],
             [
                 "Processing IDE",
@@ -597,16 +593,16 @@
         "info": "I created this app to submit to Mathologgers contest based on the video.  It's a web app which shows examples of vortex diagrams which can be downloaded as svg files to be laser cut into coasters.  The math behind the diagrams is very interesting but beyond the scope of this paragraph.  Click on the GitHub link to learn more!",
         "tech": [
             [
-                "JavaScript",
-                "#"
+                "HTML",
+                "https://developer.mozilla.org/en-US/docs/Web/HTML"
             ],
             [
-                "HTML",
-                "#"
+                "JavaScript",
+                "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             ],
             [
                 "CSS",
-                "#"
+                "https://developer.mozilla.org/en-US/docs/Web/CSS"
             ]
         ],
         "photos": [
@@ -635,16 +631,16 @@
         "info": "My gf introduced me to the popular card game Set and I became an instant fan.  I then wondered if I could turn it into a coding project.  I started with Python then soon realized rewriting the game in JavaScript would mean I could turn it into a website.  I translated the logic I had from Python to JavaScript and added some Bootstrap styling to create a nice web app.",
         "tech": [
             [
-                "JavaScript",
-                "#"
+                "HTML",
+                "https://developer.mozilla.org/en-US/docs/Web/HTML"
             ],
             [
-                "HTML",
-                "#"
+                "JavaScript",
+                "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             ],
             [
                 "Bootstrap 5",
-                "#"
+                "https://getbootstrap.com/"
             ]
         ],
         "photos": [
@@ -676,20 +672,20 @@
         "info": "This was another project I made to learn some basic web scraping and how to make an interactive web page.  I started by writing some Python to perform Google searches for makerspaces in each state.  I took all the data which was returned and filtered through each entry to test for valid urls and format things like names.  I wasn't clever enough to create an algorithm to do this for me and since the data set was only a few hundred rows, I made some coffee and brtue forced my way through.  I created an svg image of all the US states and added event handlers to allow the user to see the list of makerspaces by clicking on a state.  This was a very fun project and I plan to add more data soon!",
         "tech": [
             [
-                "JavaScript",
-                "#"
+                "HTML",
+                "https://developer.mozilla.org/en-US/docs/Web/HTML"
             ],
             [
-                "HTML",
-                "#"
+                "JavaScript",
+                "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             ],
             [
                 "Bootstrap 5",
-                "#"
+                "https://getbootstrap.com/"
             ],
             [
                 "Python 3",
-                "#"
+                "https://www.python.org/"
             ]
         ],
         "photos": [
@@ -721,15 +717,15 @@
         "tech": [
             [
                 "HTML",
-                "#"
-            ],
-            [
-                "CSS",
-                "#"
+                "https://developer.mozilla.org/en-US/docs/Web/HTML"
             ],
             [
                 "JavaScript",
-                "#"
+                "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            ],
+            [
+                "CSS",
+                "https://developer.mozilla.org/en-US/docs/Web/CSS"
             ]
         ],
         "photos": [
